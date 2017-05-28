@@ -31,7 +31,7 @@ public class GettingTheLargestValueInAnArraylist {
         }while(arr.size() < 10);
         
         System.out.println(arr);
-        System.out.println("The largest value is "+ Collections.max(arr));
+        System.out.println("The largest value is "+ Collections.max(arr) + " which is in " + arr.indexOf(Collections.max(arr)));
     }
     
 }
